@@ -8,7 +8,7 @@ public class Main {
             for (int j = 50; j >0 ; j--) {
                 System.out.println("["+i+ "]"+(j*i));
                 int a = j*i;
-                if(a>3001 && a<4000){
+                if(a>=3001 && a<=4000){
                     System.out.println(Filipe.getBairro());
                 }
             }
