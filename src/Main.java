@@ -1,3 +1,4 @@
+import Fabio.Fabio;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,8 +8,11 @@ public class Main {
 
             for (int j = 50; j >0 ; j--) {
                 System.out.println("["+i+ "]"+(j*i));
-
+                if (j*i >0 && j*i< 1000){
+                    System.out.println(Fabio.getBairro());
+                }
             }
+
 
         }
     }
