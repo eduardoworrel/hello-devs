@@ -1,3 +1,4 @@
+import Carlo.carloGiacomoni;
 import filipe.Filipe;
 
 public class Main {
@@ -11,8 +12,11 @@ public class Main {
                 if(a>=3001 && a<=4000){
                     System.out.println(Filipe.getBairro());
                 }
+                if (j*i>1000 && j*i <2001) {
+                    System.out.println(carloGiacomoni.getBairro());
+                }
             }
         }
     }
-}
 
+}
